@@ -7,10 +7,8 @@ let firstName = prompt('Enter a name');
 
 if (firstName === null && firstName.length === 0) {
     console.log('empty');
-} if (firstName.length === 0) {
-    console.log('empty');
 } else if (firstName.length <= 8) {
     console.log('short name');
-    } else {
+} else {
     console.log('long name');
 }
